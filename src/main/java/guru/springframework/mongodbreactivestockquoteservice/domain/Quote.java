@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.time.Instant;
 
 @Data
-@Document
+@Document(collection = "quotes")
 public class Quote {
     @Id
     private String id;
